@@ -6,7 +6,13 @@
       <list>
         <option value="$PROJECT_DIR$/workbook1d/Hello World/pom.xml" />
         <option value="$PROJECT_DIR$/../teacher-demos/ex-demos-from-teacher/pom.xml" />
+        <option value="$PROJECT_DIR$/wk1-calculator/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/wk1-calculator/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_20" default="true" project-jdk-name="corretto-20" project-jdk-type="JavaSDK">

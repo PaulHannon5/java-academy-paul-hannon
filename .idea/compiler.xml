@@ -10,5 +10,8 @@
         <module name="ex-demos-from-teacher" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="calculatorapp" target="20" />
+    </bytecodeTargetLevel>
   </component>
 </project>
