@@ -3,24 +3,33 @@ package com.pluralsight;
 public class Main {
     public static void main(String[] args) {
 
-
+        // Declaring variables
         String movieName = "Jumper";
         int numberOfFriends = 7;
         double pizzaPrice = 4.99;
         boolean havePopcorn = true;
-
+        //
         System.out.println("Invite " + numberOfFriends + " friends over.");
         System.out.println("Order pizza for the price of $" + pizzaPrice + ".");
-        System.out.println("Popcorn?" + havePopcorn);
+        System.out.println("Popcorn? " + havePopcorn);
         System.out.println("Pick and watch the movie " + movieName + ".");
 
-        long rounded = Math.round(pizzaPrice);
-        System.out.println("Rounded value: " + rounded );
-
         int newPizzaPrice = 5;
-        boolean overPriced = false;
+        double drinkPrice = 3.59;
 
-        if (overPriced)
+        long rounded = Math.round(pizzaPrice);
+        System.out.println("Rounded value of pizza: " + rounded);
+
+        long rounded1 = Math.round(drinkPrice);
+        System.out.println("Rounded value of drinks: " + rounded1);
+
+        int num1Friends = 7;
+        int num2Drinks = 4;
+
+        int totalCost = num1Friends * num2Drinks;
+        System.out.println("The total cost of drinks is around $" + totalCost + " dollars.");
+
+        if (newPizzaPrice > 30)
             System.out.println("Whoa, that's expensive pizza!");
         else
             System.out.println("Nice budget-friendly movie night!");

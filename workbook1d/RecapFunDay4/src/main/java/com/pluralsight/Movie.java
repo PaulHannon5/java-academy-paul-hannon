@@ -20,7 +20,7 @@ public class Movie {
         int newPizzaPrice = 5;
         boolean overPriced = false;
 
-        if (overPriced)
+        if (newPizzaPrice > 30)
             System.out.println("Whoa, that's expensive pizza!");
         else
             System.out.println("Nice budget-friendly movie night!");
