@@ -19,10 +19,13 @@ public class Main {
             System.out.println('C');
         } else if (score >= 60) {
             System.out.println('D');
-
+        } else if (score < 59) {
+            System.out.println('F');
 
         }
 
+
     }
 
     }
+
