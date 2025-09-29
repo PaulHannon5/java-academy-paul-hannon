@@ -23,11 +23,12 @@ public class Main {
             System.out.println('F');
         } else {
             System.out.println("Input Error");
-
+        }
+         scanScore.close();
         }
 
 
     }
 
-    }
+
 
