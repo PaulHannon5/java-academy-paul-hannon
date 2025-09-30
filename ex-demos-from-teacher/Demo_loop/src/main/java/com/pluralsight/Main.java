@@ -14,5 +14,8 @@ public class Main {
         for (int i = 81; i > 1; i--) {
             System.out.printf("%d days left for year up academy.%n",i);
         }
+        for (int i = 2; i <= 10; i+=2) {
+            System.out.println(i);
+        }
     }
 }
