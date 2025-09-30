@@ -17,5 +17,12 @@ public class Main {
         for (int i = 2; i <= 10; i+=2) {
             System.out.println(i);
         }
+
+        System.out.println("\nWhile Loop: Counting down from 60");
+        int j = 60;
+        while (j > 0) {
+            System.out.println("Countdown: " + j);
+            j--;
+        }
     }
 }
